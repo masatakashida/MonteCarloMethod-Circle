@@ -14,3 +14,6 @@ def monte_carlo(count):
     return 4 * ok / count
 
 print('   100の場合{0}'.format(monte_carlo(100)))
+print('  1000の場合{0}'.format(monte_carlo(1000)))
+print(' 10000の場合{0}'.format(monte_carlo(10000)))
+print('100000の場合{0}'.format(monte_carlo(100000)))
